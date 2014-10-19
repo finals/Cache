@@ -1,5 +1,5 @@
-#include <sys/mman.h>
 #include <unistd.h>      // for sbrk
+#include <sys/mmap.h>    // for mmap
 #include <stdint.h>      // for uintptr_t, intptr_t
 #include <stddef.h>      // for size_t, NULL, ptrdiff_t
 #include <errno.h>       // for EAGAIN, errno
